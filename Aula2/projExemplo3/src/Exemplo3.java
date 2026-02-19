@@ -9,7 +9,12 @@ public class Exemplo3 {
         
         num = (int) (Math.random() * 100);
         
-        System.out.println(num);
+        if(num <= 50)
+            System.out.println(num + " É menor ou igual que 50");
+        else
+            System.out.println(num + " É maior que 50");
+        
+        System.out.println();
     }
     
 }
